@@ -9,7 +9,7 @@ const hue = 0.15;
 
 function drawTree(x1, y1, x2, y2, depth) {
 
-    if (depth == depthLimit)
+    if (depth === depthLimit)
         return;
 
     const dx = x2 - x1;
